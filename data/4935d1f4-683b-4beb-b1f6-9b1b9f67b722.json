@@ -1,0 +1,52 @@
+{
+  "uuid": "4935d1f4-683b-4beb-b1f6-9b1b9f67b722",
+  "name": "Martins station",
+  "owner": "Martin EL AB",
+  "email": "matte@insector.se",
+  "status": "working",
+  "created": "2019-05-08",
+  "modified": "2019-05-08",
+  "connectors": [
+    {
+      "level": 2,
+      "kiloWatt": 22
+    },
+    {
+      "level": 3,
+      "kiloWatt": 50,
+      "standard": "CHAdeMO"
+    }
+  ],
+  "location": {
+    "address": "Elgatan 12 B",
+    "postalCode": "123 45",
+    "type": "Publik",
+    "description": "Genom porten, till höger.",
+    "gps": {
+      "latitude": 81.2308,
+      "longitude": 21.0922
+    }
+  },
+  "hoursOpen": {
+    "from": 7,
+    "to": 22,
+    "description": "Helgfria vardagar"
+  },
+  "hasTimeLimit": true,
+  "timeLimitDescription": "max 3 tim",
+  "payment": {
+    "hasChargingFee": true,
+    "chargingFeeDescription": "3kr/kWh",
+    "methods": [
+      "Kontant",
+      "Kort",
+      "SMS",
+      "App"
+    ]
+  },
+  "hasParkingFee": false,
+  "other": {
+    "hasRealTimeInfo": false,
+    "general": "Support 0712-34 56 78"
+  }
+}
